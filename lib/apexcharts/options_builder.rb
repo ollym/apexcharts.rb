@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require 'smart_kv'
+require 'dry-schema'
+require_relative 'options_checker'
 require_relative 'options/root'
 require_relative 'options/annotations'
 require_relative 'options/data_labels'
